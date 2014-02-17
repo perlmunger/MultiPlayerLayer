@@ -21,6 +21,9 @@
 		B3321D8418B2C1EF00052D55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3321D6618B2C1EF00052D55 /* UIKit.framework */; };
 		B3321D8C18B2C1EF00052D55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3321D8A18B2C1EF00052D55 /* InfoPlist.strings */; };
 		B3321D8E18B2C1EF00052D55 /* MultiPlayerLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3321D8D18B2C1EF00052D55 /* MultiPlayerLayerTests.m */; };
+		B3321D9818B2C1FA00052D55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3321D9718B2C1FA00052D55 /* AVFoundation.framework */; };
+		B3321D9A18B2C20200052D55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3321D9918B2C20200052D55 /* QuartzCore.framework */; };
+		B3321D9C18B2C7F700052D55 /* Launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B3321D9B18B2C7F700052D55 /* Launch.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B3321D8918B2C1EF00052D55 /* MultiPlayerLayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPlayerLayerTests-Info.plist"; sourceTree = "<group>"; };
 		B3321D8B18B2C1EF00052D55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3321D8D18B2C1EF00052D55 /* MultiPlayerLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPlayerLayerTests.m; sourceTree = "<group>"; };
+		B3321D9718B2C1FA00052D55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B3321D9918B2C20200052D55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3321D9B18B2C7F700052D55 /* Launch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Launch.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3321D9A18B2C20200052D55 /* QuartzCore.framework in Frameworks */,
+				B3321D9818B2C1FA00052D55 /* AVFoundation.framework in Frameworks */,
 				B3321D6518B2C1EF00052D55 /* CoreGraphics.framework in Frameworks */,
 				B3321D6718B2C1EF00052D55 /* UIKit.framework in Frameworks */,
 				B3321D6318B2C1EF00052D55 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,8 @@
 		B3321D6118B2C1EF00052D55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3321D9918B2C20200052D55 /* QuartzCore.framework */,
+				B3321D9718B2C1FA00052D55 /* AVFoundation.framework */,
 				B3321D6218B2C1EF00052D55 /* Foundation.framework */,
 				B3321D6418B2C1EF00052D55 /* CoreGraphics.framework */,
 				B3321D6618B2C1EF00052D55 /* UIKit.framework */,
@@ -119,6 +129,7 @@
 				B3321D7818B2C1EF00052D55 /* MLViewController.m */,
 				B3321D7A18B2C1EF00052D55 /* Images.xcassets */,
 				B3321D6918B2C1EF00052D55 /* Supporting Files */,
+				B3321D9B18B2C7F700052D55 /* Launch.mp4 */,
 			);
 			path = MultiPlayerLayer;
 			sourceTree = "<group>";
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3321D9C18B2C7F700052D55 /* Launch.mp4 in Resources */,
 				B3321D7B18B2C1EF00052D55 /* Images.xcassets in Resources */,
 				B3321D6D18B2C1EF00052D55 /* InfoPlist.strings in Resources */,
 				B3321D7618B2C1EF00052D55 /* Main.storyboard in Resources */,
